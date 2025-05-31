@@ -2,6 +2,6 @@
 
 github: AndroidWithRossyn
 custom: 
-  -  ["https://www.paypal.com/paypalme/banrossyn", paypal.com] 
-  -  ["https://github.com/AndroidWithRossyn/AndroidWithRossyn/blob/main/donate/upi_scan.jpg?raw=true", UPI]  
+  - https://www.paypal.com/paypalme/banrossyn 
+  - https://github.com/AndroidWithRossyn/AndroidWithRossyn/blob/main/donate/upi_scan.jpg?raw=true
 
