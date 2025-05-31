@@ -4,8 +4,8 @@ This repository shows a simple and clean implementation of **Google AdMob Banner
 
 
 <p align="center">
-    <a href="">
-      <img src="https://github.com/user-attachments/assets/d9180f4e-9c4c-4825-b894-eb621aeb9409" width = "200"  />
+    <a href="https://github.com/AndroidWithRossyn/AdMob-Best-Practices-Android/raw/refs/heads/main/BannerAd-Simple/banner-simple.apk">
+      <img src="https://github.com/user-attachments/assets/d9180f4e-9c4c-4825-b894-eb621aeb9409" width = "300"  />
     </a>
 </p>
 
