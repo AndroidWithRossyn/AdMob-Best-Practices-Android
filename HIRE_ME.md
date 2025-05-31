@@ -2,7 +2,7 @@
 
 I specialize in **Ad integration and optimization** to help app developers like you **maximize ad revenue** while ensuring a **great user experience**. Whether you need basic setup or advanced monetization strategies — I’ll take care of everything.
 
-<img src="../assets/helper-images/graphic-hire-me.png" />
+<img src="./assets/helper-images/graphic-hire-me.png" />
 
 ### ✅ What I Offer:
 
