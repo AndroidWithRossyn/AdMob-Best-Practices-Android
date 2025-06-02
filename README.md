@@ -24,7 +24,7 @@ Best practices for integrating AdMob ads in Android apps (Banner, Interstitial, 
 
 ## 📌 About This Repo
 
-This is an ongoing project where I will be adding practical examples and code for all major AdMob ad formats, including:
+I will be adding practical examples and code for all major AdMob ad formats, including:
 
 - Banner Ads  
 - Interstitial Ads  

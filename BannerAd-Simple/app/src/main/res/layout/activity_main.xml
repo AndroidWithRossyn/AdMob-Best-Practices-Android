@@ -53,210 +53,213 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/linearLayoutCompat"
+
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/bg_rec_cor_10dp"
-        android:backgroundTint="@color/md_theme_primaryContainer"
-        android:backgroundTintMode="src_over"
-        android:orientation="vertical"
-        android:padding="15dp"
-        app:cardElevation="1dp"
+        android:layout_height="0dp"
+        android:scrollbarSize="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view_container"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_toolbar">
 
-        <com.google.android.material.textview.MaterialTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rec_cor_3dp"
-            android:backgroundTint="@color/md_theme_surface30"
-            android:backgroundTintMode="src_over"
-            android:padding="5dp"
-            android:singleLine="true"
-            android:text="[Admob] Banner Ad - Simple"
-            android:textColor="@color/md_theme_surface"
-            android:textSize="13sp" />
-
-
-        <com.google.android.material.textview.MaterialTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/bg_rec_cor_3dp"
-            android:backgroundTint="@color/md_theme_surface30"
-            android:backgroundTintMode="src_over"
-            android:padding="5dp"
-            android:scrollbars="horizontal"
-            android:singleLine="true"
-            android:text="@string/admob_banner_id"
-            android:textColor="@color/md_theme_surface"
-            android:textSize="13sp" />
-
-        <com.google.android.material.textview.MaterialTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            android:padding="5dp"
-            android:text="Use it for the Banner Admob"
-            android:textColor="@color/md_theme_surface"
-            android:textSize="10sp" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/github_liner"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/bg_rec_cor_10dp"
-        android:backgroundTint="@color/md_theme_surfaceContainer"
-        android:backgroundTintMode="src_over"
-        android:clickable="true"
-        android:focusable="true"
-        android:foreground="@drawable/ripple_rec_cor_10dp"
-        android:orientation="horizontal"
-        android:padding="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat">
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/github" />
-
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginHorizontal="5dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Github"
-                android:textColor="@color/md_theme_onSurface"
-                android:textSize="17sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:singleLine="true"
-                android:text="@string/admob_best_practices_repo"
-                android:textColor="@color/md_theme_primaryContainer"
-                android:textSize="11sp" />
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="top"
-            android:src="@drawable/external_link"
-            android:tint="@color/md_theme_primaryContainer" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/admob_liner"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/bg_rec_cor_10dp"
-        android:backgroundTint="@color/md_theme_surfaceContainer"
-        android:backgroundTintMode="src_over"
-        android:clickable="true"
-        android:focusable="true"
-        android:foreground="@drawable/ripple_rec_cor_10dp"
-        android:orientation="horizontal"
-        android:padding="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/github_liner">
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/google_admob" />
-
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginHorizontal="5dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Admob"
-                android:textColor="@color/md_theme_onSurface"
-                android:textSize="17sp"
-                android:textStyle="bold" />
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:singleLine="true"
-                android:text="@string/admob_google"
-                android:textColor="@color/md_theme_primaryContainer"
-                android:textSize="11sp" />
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="top"
-            android:src="@drawable/external_link"
-            android:tint="@color/md_theme_primaryContainer" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/bg_rec_cor_10dp"
-        android:backgroundTint="@color/md_theme_errorContainer"
-        android:backgroundTintMode="src_over"
-        android:maxHeight="80dp"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:scrollbarSize="0dp"
-        android:scrollbars="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admob_liner">
-
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxHeight="80dp">
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linearLayoutCompat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_rec_cor_10dp"
+                android:backgroundTint="@color/md_theme_primaryContainer"
+                android:backgroundTintMode="src_over"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:cardElevation="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/top_toolbar">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rec_cor_3dp"
+                    android:backgroundTint="@color/md_theme_surface30"
+                    android:backgroundTintMode="src_over"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="[Admob] Banner Ad - Simple"
+                    android:textColor="@color/md_theme_surface"
+                    android:textSize="13sp" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_rec_cor_3dp"
+                    android:backgroundTint="@color/md_theme_surface30"
+                    android:backgroundTintMode="src_over"
+                    android:padding="5dp"
+                    android:scrollbars="horizontal"
+                    android:singleLine="true"
+                    android:text="@string/admob_banner_id"
+                    android:textColor="@color/md_theme_surface"
+                    android:textSize="13sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:padding="5dp"
+                    android:text="Use it for the Banner Admob"
+                    android:textColor="@color/md_theme_surface"
+                    android:textSize="10sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/github_liner"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_rec_cor_10dp"
+                android:backgroundTint="@color/md_theme_surfaceContainer"
+                android:backgroundTintMode="src_over"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="@drawable/ripple_rec_cor_10dp"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/github" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Github"
+                        android:textColor="@color/md_theme_onSurface"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="@string/admob_best_practices_repo"
+                        android:textColor="@color/md_theme_primaryContainer"
+                        android:textSize="11sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="top"
+                    android:src="@drawable/external_link"
+                    android:tint="@color/md_theme_primaryContainer" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/admob_liner"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_rec_cor_10dp"
+                android:backgroundTint="@color/md_theme_surfaceContainer"
+                android:backgroundTintMode="src_over"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="@drawable/ripple_rec_cor_10dp"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/github_liner">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/google_admob" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Admob"
+                        android:textColor="@color/md_theme_onSurface"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="@string/admob_google"
+                        android:textColor="@color/md_theme_primaryContainer"
+                        android:textSize="11sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="top"
+                    android:src="@drawable/external_link"
+                    android:tint="@color/md_theme_primaryContainer" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/report_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/bg_rec_cor_10dp"
+                android:backgroundTint="@color/md_theme_errorContainer"
+                android:backgroundTintMode="src_over"
                 android:maxHeight="80dp"
+                android:padding="10dp"
                 android:text="@string/app_name"
                 android:textColor="@color/md_theme_onErrorContainer" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 
