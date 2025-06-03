@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Banner Ad</string>
+
+    <string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!--AdMob test Ads-->
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_reword" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_reword_interstitial" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+    <string name="admob_app_open" translatable="false">ca-app-pub-3940256099942544/9257395921</string>
+    <string name="admob_best_practices_repo">https://github.com/AndroidWithRossyn/AdMob-Best-Practices-Android</string>
+    <string name="admob_google">https://admob.google.com</string>
+</resources>

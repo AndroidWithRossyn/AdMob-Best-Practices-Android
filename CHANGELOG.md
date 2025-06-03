@@ -1,6 +1,6 @@
 ## `03 Jun 2025`
 
-- Added Admob Banner Size 320x50
+- Added Admob Banner Size 320x50, 320x100
 - Readme.md Improvements
 
 ## `02 Jun 2025`
