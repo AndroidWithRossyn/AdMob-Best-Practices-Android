@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Banner_320x100.app" target="21" />
+      <module name="Banner_320x50.app" target="21" />
+      <module name="Banner_Ad.app" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
