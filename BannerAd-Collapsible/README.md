@@ -1,17 +1,18 @@
 # 📱 AdMob Banner Collapsible Ad Demo
 
+<img align="right" alt="banner" width="170" src="https://developers.google.com/static/admob/images/format-banner.svg">
+
 This repository shows a simple and clean implementation of **Google AdMob Banner Collapsible Ad** using **Kotlin** in an Android app. It covers best practices like safe loading, error handling, and visibility management.
 
 
-<p align="center">
-    <a href="../BannerAd-Collapsible/banner-collapsible.apk">
-      <img src="https://github.com/user-attachments/assets/d9180f4e-9c4c-4825-b894-eb621aeb9409" width = "300"  />
-    </a>
-</p>
+
+### AdMob Banner Ad Size
+
+| Description | Availability       | AdSize Constant              | Demo                             | Showcase                                    |
+| ----------- | ------------------ | ---------------------------- | -------------------------------- | ------------------------------------------- |
+| Banner      | Phones and tablets | `displayMetrics.widthPixels` | [Link](./banner-collapsible.apk) | [ Video](https://youtu.be/rjMCmzDar4o) |
 
 
-
-### 🚀 Features
 
 - Load `AdMob Banner Collapsible` Ad
 - Handle Ad Load Success & Failure
@@ -19,14 +20,7 @@ This repository shows a simple and clean implementation of **Google AdMob Banner
 - Network Connectivity Check
 - Easy-to-understand Kotlin code
 
-
-### 🧩 Tech Stack
-
-- Kotlin
-- Android SDK
-- Google AdMob SDK
-- ViewBinding
-- Material Design
+<img src="https://developers.google.com/static/admob/images/collapsible-banner.png" width= "500"/>
 
 ## 📩 Need Help?
 
@@ -37,7 +31,7 @@ If you face any issue or have a question, feel free to open an issue on GitHub.
 
 ### Copyright & License
 ```
-© 2024 Rossyn. All rights reserved.
+© 2025 Rohitrajkhorwal. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

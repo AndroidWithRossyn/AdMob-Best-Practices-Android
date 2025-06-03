@@ -1,22 +1,19 @@
-# 📱 AdMob Banner Ads Demo (Android | Kotlin)
+# 📱 AdMob Banner Ads Demo
+
+<img align="right" alt="banner" width="170" src="https://developers.google.com/static/admob/images/format-banner.svg">
 
 This repository shows a simple and clean implementation of **Google AdMob Banner Ads** using **Kotlin** in an Android app. It covers best practices like safe loading, error handling, and visibility management.
 
 
-<p align="center">
-    <a href="https://github.com/AndroidWithRossyn/AdMob-Best-Practices-Android/raw/refs/heads/main/BannerAd-Simple/banner-simple.apk">
-      <img src="https://github.com/user-attachments/assets/d9180f4e-9c4c-4825-b894-eb621aeb9409" width = "300"  />
-    </a>
-</p>
+### AdMob Banner Ad Size
+
+| Availability       | AdSize Constant             | Demo                        | Showcase                                              |
+| ------------------ | --------------------------- | --------------------------- | ----------------------------------------------------- |
+| Phones and tablets | `AdaptiveBannerAdSize(360)` | [Link](./banner-simple.apk) | [ Video](https://www.youtube.com/watch?v=kjtvKQpqTmo) |
 
 
-<p align="center">
-    <a href="https://www.youtube.com/watch?v=kjtvKQpqTmo">
-      <img src="https://img.youtube.com/vi/kjtvKQpqTmo/maxresdefault.jpg" width = "720" />
-    </a>
-</p>
 
-### 🚀 Features
+---
 
 - Load AdMob Banner Ad
 - Handle Ad Load Success & Failure
@@ -25,13 +22,7 @@ This repository shows a simple and clean implementation of **Google AdMob Banner
 - Easy-to-understand Kotlin code
 
 
-### 🧩 Tech Stack
 
-- Kotlin
-- Android SDK
-- Google AdMob SDK
-- ViewBinding
-- Material Design
 
 ## 📩 Need Help?
 
@@ -42,7 +33,7 @@ If you face any issue or have a question, feel free to open an issue on GitHub.
 
 ### Copyright & License
 ```
-© 2024 Rossyn. All rights reserved.
+© 2025 Rohitraj Khorwal. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

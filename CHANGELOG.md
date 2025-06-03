@@ -1,3 +1,8 @@
+## `03 Jun 2025`
+
+- Added Admob Banner Size 320x50
+- Readme.md Improvements
+
 ## `02 Jun 2025`
 
 - Added AdMob Banner Collapsible Ad

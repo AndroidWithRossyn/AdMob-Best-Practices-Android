@@ -4,16 +4,6 @@ Thank you for helping to keep **AdMob-Best-Practices-Android** secure!
 
 ---
 
-## 📆 Supported Versions
-
-This project is actively maintained. Please always use the latest version for the most secure experience.
-
-| Version       | Status    |
-|---------------|-----------|
-| Latest (main) | ✅ Active |
-| Older         | ❌ No support |
-
----
 
 ## 🛡️ Scope
 

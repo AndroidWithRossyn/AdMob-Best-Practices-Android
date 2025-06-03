@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Banner Ad"
+rootProject.name = "Banner-Collapsible"
 include(":app")
