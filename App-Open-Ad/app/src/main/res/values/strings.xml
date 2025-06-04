@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">App Open</string>
+
+    <string name="admob_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!--AdMob test Ads-->
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_reword" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_reword_interstitial" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+    <string name="admob_app_open" translatable="false">ca-app-pub-3940256099942544/9257395921</string>
+    <string name="admob_best_practices_repo">https://github.com/AndroidWithRossyn/AdMob-Best-Practices-Android</string>
+    <string name="admob_google">https://admob.google.com</string>
+
+
+    <string name="app_short_description">Boost your productivity with ease.</string>
+    <string name="lorem_title">Lorem Ipsum title</string>
+    <string name="lorem_short">Lorem Ipsum App is a clean and modern productivity tool designed to help you stay organized.</string>
+    <string name="lorem_description">Lorem Ipsum App is a clean and modern productivity tool designed to help you stay organized and focused.Manage tasks, set reminders, and sync across devices effortlessly Simple, effective, and distraction-free.</string>
+
+    <!-- Buttons -->
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_learn_more">Learn More</string>
+    <string name="btn_buy_now">Buy Now</string>
+    <string name="btn_watch_demo">Watch Demo</string>
+    <string name="btn_try_free">Try Free</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_previous">Previous</string>
+
+    <!-- Pricing -->
+    <string name="price_free">Free</string>
+    <string name="price_paid">$1.99</string>
+    <string name="in_app_purchases">In-app purchases available</string>
+
+    <!-- Features -->
+    <string name="feature_one">Clean and minimalist UI</string>
+    <string name="feature_two">Smart task management</string>
+    <string name="feature_three">Cross-device sync</string>
+    <string name="feature_four">Dark mode available</string>
+    <string name="feature_five">Daily reminders and notifications</string>
+
+    <!-- UI Labels -->
+    <string name="label_features">Features</string>
+    <string name="label_description">Description</string>
+    <string name="label_price">Price</string>
+    <string name="label_version">Version</string>
+    <string name="label_updated">Last Updated</string>
+    <string name="label_contact">Contact</string>
+</resources>
