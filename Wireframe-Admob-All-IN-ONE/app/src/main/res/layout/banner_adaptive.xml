@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/banner_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/banner_top"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        app:dividerColor="@color/md_theme_primary"
+        app:layout_constraintBottom_toTopOf="@+id/banner_ad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/banner_loader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        app:layout_constraintBottom_toTopOf="@+id/banner_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_top"
+        app:shimmer_duration="800"
+        app:shimmer_repeat_count="-1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="7dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/shapeable_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_rec_cor_10dp"
+                android:backgroundTint="@color/md_theme_outline"
+                android:backgroundTintMode="src_over"
+                android:padding="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.01"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.App.corners" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ad_title"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rec_cor_3dp"
+                android:backgroundTint="@color/md_theme_outline"
+                android:backgroundTintMode="src_over"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/ad_description"
+                app:layout_constraintStart_toEndOf="@+id/shapeable_image_view"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ad_description"
+                android:layout_width="230dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rec_cor_3dp"
+                android:backgroundTint="@color/md_theme_outline"
+                android:backgroundTintMode="src_over"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/shapeable_image_view"
+                app:layout_constraintTop_toBottomOf="@+id/ad_title" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ad_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_rec_cor_bottom_3dp"
+        android:backgroundTint="#D9D9D9"
+        android:backgroundTintMode="src_over"
+        android:padding="5dp"
+        android:text="Ad"
+        android:textStyle="bold"
+        android:textColor="@color/md_theme_onSurface"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_top" />
+
+    <FrameLayout
+        android:id="@+id/banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/banner_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_top" />
+
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/banner_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        app:dividerColor="@color/md_theme_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_ad" />
+</androidx.constraintlayout.widget.ConstraintLayout>
