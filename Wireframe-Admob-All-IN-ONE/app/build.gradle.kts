@@ -57,5 +57,7 @@ dependencies {
     implementation("com.facebook.shimmer:shimmer:0.5.0")
 
     implementation("com.google.android.gms:play-services-ads:24.3.0")
+    implementation ("androidx.lifecycle:lifecycle-process:2.9.0") // For AppOpenManager
+
     implementation("com.google.android.ump:user-messaging-platform:3.2.0")
 }

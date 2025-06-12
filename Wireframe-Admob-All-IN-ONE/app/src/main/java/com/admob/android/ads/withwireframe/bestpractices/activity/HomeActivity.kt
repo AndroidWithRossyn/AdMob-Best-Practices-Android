@@ -16,6 +16,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.admob.android.ads.withwireframe.bestpractices.R
 import com.admob.android.ads.withwireframe.bestpractices.adapters.LayoutItemAdapter
+import com.admob.android.ads.withwireframe.bestpractices.ads.AppOpenAdManager
 import com.admob.android.ads.withwireframe.bestpractices.ads.GoogleMobileAdsConsentManager
 import com.admob.android.ads.withwireframe.bestpractices.ads.GoogleMobileAdsConsentManager.Companion.TEST_DEVICE_HASHED_ID
 import com.admob.android.ads.withwireframe.bestpractices.databinding.ActivityHomeBinding
@@ -194,6 +195,9 @@ class HomeActivity : AppCompatActivity(), DefaultLifecycleObserver {
 
             runOnUiThread {
                 loadBanner()
+            }
+            AppOpenAdManager(this@HomeActivity).apply {
+                setMobileAdsInitialized(true)
             }
 
         }

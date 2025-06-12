@@ -19,13 +19,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".activity.ItemFullActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.AboutActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.HomeActivity"
+            android:name=".activity.FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +27,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.ItemFullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
